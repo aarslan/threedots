@@ -85,7 +85,7 @@ def process_dir(src_dir, deg_l, deg_r, vid_type, target_dir, seq, this_fr):
 				stereo_mat_name = os.path.join(stereo_dir_name, str(fr+filt_fr))
 				target_dir_name = os.path.join(target_motion_dir, act, seq)
 				target_mat_name = os.path.join(target_dir_name, str(fr))
-				import ipdb; ipdb.set_trace()
+				#import ipdb; ipdb.set_trace()
 				frame = load_frame(file_name)
 				#import ipdb; ipdb.set_trace()
 				im[filt_fr,:,:] = np.array(frame)
