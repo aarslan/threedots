@@ -16,9 +16,9 @@ module unload python
 module load enthought
 module unload cuda
 
-echo 'processing' $7 $2 $3 $4 $5 
-src_code_dir='/users/aarslan/code/dorsoventral'
-joblist='/users/aarslan/joblists/'$7_$2_$3_$4_$5'.jlist'
+echo 'processing' $2 $3 $4 $5 
+src_code_dir='/users/aarslan/code/threedots'
+joblist='/users/aarslan/joblists/'$2_$3_$4_$5'.jlist'
 echo before $PYTHONPATH
 export PYTHONPATH=$PYTHONPATH:/users/aarslan/tools/hmax/models/HNORM
 echo after $PYTHONPATH
