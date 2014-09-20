@@ -13,7 +13,7 @@ def process_dir(src_dir, deg_l, deg_r, vid_type, target_dir, seq, this_fr):
 	sys.path
 	loop_proc = True;
 	frame_cnt = 45
-	middle = np.mean([int(deg_r), int(deg_l)], dtype='int')
+	middle = np.mean([int(deg_r), int(deg_l)], dtype='int')+int(1)
 	mid_angle_dir = os.path.join(src_dir, str(middle))
 	target_motion_dir = os.path.join(target_dir, deg_r+'-'+deg_l)
 	imH = 409
