@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --time=00:59:00
-#SBATCH --mem=128G
+#SBATCH --mem=63G
 ##SBATCH -n 8
 ##SBATCH -N 8-16 
 #SBATCH --qos=pri-aarslan ##bibs-tserre-condo
