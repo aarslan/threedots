@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --time=00:59:00
+#SBATCH --time=04:59:00
 #SBATCH --mem=63G
 ##SBATCH -n 8
 ##SBATCH -N 8-16 
@@ -35,4 +35,4 @@ do
 	fi
 done
 
-parallel -j4 -a $joblist
+parallel -j5 -a $joblist
