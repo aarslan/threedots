@@ -116,7 +116,7 @@ def get_crop(stereo_dir_name, frame_cnt, imH, imW, gabor_sizes):
 	aaa = np.where(av<av[1,1])
 
 	crop = ((aaa[0].min()-border, aaa[0].max()+border), ((aaa[1].min()-border, aaa[1].max()+border)))
-	import ipdb; ipdb.set_trace()
+	#import ipdb; ipdb.set_trace()
 	return crop
 
 
